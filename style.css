@@ -32,7 +32,7 @@ body {
 .sidebar {
     flex: 0 0 35%;
     /* background-color: green; */
-    background-image: url(/images/bg-leaves-image-small.jpg);
+    background-image: url(images/bg-leaves-image-small.jpg);
     background-size: cover;
     background-position: center;    
     display: flex;
