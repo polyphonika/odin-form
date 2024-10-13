@@ -113,7 +113,7 @@ body {
     width: 600px;
     /* gap: 55px; */
     column-gap: 55px;
-    row-gap: 25px;
+    row-gap: 15px;
     margin-top: 15px;
     flex-direction: row;
 }
@@ -146,6 +146,57 @@ body {
     border: 1px solid blue;
     outline: none;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow underneath and to the right */
+}
+
+.form .form-item input:user-invalid {
+    border: 1px solid red;
+}
+
+.form small {
+    font-size: 0.625rem;
+    margin-top: 5px;
+    color: red;
+    /* display:none; */
+    visibility: hidden;
+}
+
+.form .form-item input:user-invalid + small {
+    /* display: block; */
+    visibility: visible;
+}
+
+.content button {
+    margin-left: 50px;
+    margin-top: 25px;
+    padding: 15px 45px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #596d48;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content button:hover {
+    background-color: #47563a;
+    cursor: pointer;
+}
+
+.content button + p {
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.content a {
+    color: #596d48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
 }
 
 
