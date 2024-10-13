@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Norse Bold'; /* Name of the font that you'll use in your CSS */
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff'); /* Fallback for browsers that don't support woff2 */
+    font-weight: bold; /* Define the weight for this font */
+    font-style: normal; /* Define the style for this font (normal, italic, etc.) */
+  }  
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif 
+    }
+
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}       
+
+.container {
+    height: 100vh;
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+
+.sidebar {
+    flex: 0 0 30%;
+    /* background-color: green; */
+    background-image: url(/images/bg-leaves-image-small.jpg);
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;    
+}
+
+.sidebar p {
+    color: white;
+    font-size: 0.8rem;
+}
+
+.sidebar a, .sidebar a:hover, .sidebar a:visited, .sidebar a:focus {
+    color: white;
+}
+
+.logo {
+    margin-top: 200px;
+    height: 100px;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Norse Bold';
+    color: white;
+    opacity: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* z-index: 10; */
+}
+
+/* .logo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+    z-index: -1; 
+  }  */
+
+.logo img, span {
+    max-height: 100%;
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+

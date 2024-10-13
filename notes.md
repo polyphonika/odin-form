@@ -1,9 +1,9 @@
 1. ~~Begin scaffolding the html~~
-2. NEXT--> CSS resets
-3a. Sidebar size, content size, general heights
-3. Sidebar background
-4. Sidebar logo block and position
-4b. Sidebar footer text re image attribution
+2. ~~NEXT--> CSS resets~~
+3a. ~~Sidebar size, content size, general heights~~
+3. ~~Sidebar background~~
+4. ~~Sidebar logo block and position~~
+4b. ~~Sidebar footer text re image attribution~~
 5. content block top block, line up with logo
 6. background of content block
 7. basic form styling
@@ -16,6 +16,9 @@
 Notes:
 * unsure if we should have a body container as well as a content container
 * unsure how to get the sidebar working with flex but shouldn't be too difficult
+* which vs code kb shortcuts do i need to learn?
+*   multi line select
+*   delete lines, highlight lines, select lines
 
 
 
